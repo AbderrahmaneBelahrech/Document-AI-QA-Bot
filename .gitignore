@@ -1,0 +1,12 @@
+# Ignore the .env file containing sensitive information
+.env
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore uploaded files or other temporary directories
+assets/uploaded_files/
+assets/BCSkills_Logo.png
+
+# Ignore system files
+.DS_Store
