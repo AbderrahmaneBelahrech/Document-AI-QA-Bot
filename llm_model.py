@@ -1,5 +1,5 @@
 from langchain.vectorstores import FAISS
-#from langchain.llms import GooglePalm, CTransformers
+from langchain.llms import GooglePalm, CTransformers
 from langchain.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
 from langchain.embeddings import HuggingFaceEmbeddings, HuggingFaceInstructEmbeddings
 from langchain.prompts import PromptTemplate
